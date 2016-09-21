@@ -8,3 +8,6 @@ Delete all containers
 
 Delete all images
 > docker rmi $(docker images -q)
+
+Access container terminal
+> docker exec -it CONTAINER_NAME bash
