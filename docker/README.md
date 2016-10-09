@@ -1,7 +1,7 @@
 # Docker
 
-Remove all images and containers
------------
+Install latest version
+> curl -sSL https://get.docker.com/ | sh
 
 Delete all containers
 > docker rm $(docker ps -a -q)
